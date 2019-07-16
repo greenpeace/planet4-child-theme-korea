@@ -1,0 +1,39 @@
+.mini-swiper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .swiper-wrapper {
+    align-items: stretch;
+  }
+
+  .swiper-slide {
+    padding-left: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 0;
+    height: auto;
+
+    &:first-child {
+      margin-left: -20px;
+      border-left: none;
+    }
+
+    &.has-profile {
+      border-left: none;
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+
+  @include greaterThan('sm') {
+    &.swiper-container-initialized {
+      .swiper-button-prev,
+      .swiper-button-next {
+        display: flex;
+      }
+    }
+  }
+}

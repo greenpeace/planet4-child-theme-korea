@@ -1,0 +1,10 @@
+.stepper {
+  counter-reset: stepper;
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px;
+
+  @include lessThan('sm') {
+    margin-top: 5px;
+  }
+}
