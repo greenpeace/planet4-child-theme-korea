@@ -57,12 +57,6 @@ if ( ! $context['og_image_data'] ) {
 	}
 }
 
-// to be removeds
-$gpea_options = get_option( 'gpea_options' );
-$context['make_change_id'] = isset( $options['gpea_default_make_change'] ) ? $options['gpea_default_make_change'] : 'NOTHING';
-
-$context['manual_change_link'] = get_permalink( 1480 );
-
 /*
  for main issue relation we use categories */
 // $context['categories'] = implode( ', ', $post->categories() );
