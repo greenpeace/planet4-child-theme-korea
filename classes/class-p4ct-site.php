@@ -72,6 +72,9 @@ class P4CT_Site {
 		// add_action( 'save_post', [ $this, 'p4_auto_generate_excerpt' ], 10, 2 );
 		add_action( 'save_post', [ $this, 'gpea_auto_set_tag' ], 10, 2 );
 		add_filter( 'query_vars', [ $this, 'add_query_vars_filter' ], 10, 2 );
+		// avoid apostrofi
+		add_filter( 'run_wptexturize', '__return_false' );
+
 		register_nav_menus(
 			[
 				'navigation-bar-menu' => __( 'Navigation Bar Menu', 'gpea_theme_backend' ),
@@ -248,12 +251,9 @@ class P4CT_Site {
 		wp_enqueue_style( 'child-style-fonts', get_stylesheet_directory_uri() . '/static/css/' . $css_fonts, [], $css_creation );
 		wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/static/css/style.css', [], $css_creation );
 		wp_enqueue_script( 'child-script', get_stylesheet_directory_uri() . '/static/js/script.js',[], $js_creation, true );
-		// to be removed after frontend merge!!
-		wp_enqueue_script( 'child-dev-script', get_stylesheet_directory_uri() . '/static/js/dev_integration.js', array(), $js_creation, true );
-		wp_localize_script( 'child-dev-script', 'localizations', [
+		wp_localize_script( 'child-script', 'localizations', [
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 		]);
-		// END to be removed after frontend merge!!
 	}
 
 	/**
