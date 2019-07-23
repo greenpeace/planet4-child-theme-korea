@@ -10,6 +10,10 @@ const tagCloud = function() {
     var gpea_cookie_issues = Cookies.get(cookie_name_issues)
       ? Cookies.getJSON(cookie_name_issues)
       : new Array();
+
+    // in case of malformed array, reset it
+    if (!Array.isArray(gpea_cookie_issues)) gpea_cookie_issues = new Array();
+    
     $.each(gpea_cookie_issues, function(key, value) {
       $(`.topic-button[data-topic='${value}']`).addClass('active');
       $(`.topic-button[data-topic='${value}']`).show();
@@ -20,6 +24,10 @@ const tagCloud = function() {
     var gpea_cookie_topics = Cookies.get(cookie_name_topics)
       ? Cookies.getJSON(cookie_name_topics)
       : new Array();
+
+    // in case of malformed array, reset it
+    if (!Array.isArray(gpea_cookie_topics)) gpea_cookie_topics = new Array();
+    
     $.each(gpea_cookie_topics, function(key, value) {
       $(`.topic-button[data-topic='${value}']`).addClass('active');
     });
@@ -89,6 +97,17 @@ const tagCloud = function() {
     $('.tag_cloud_form').fadeIn();
     // $('.tag_cloud_form .signatures').addClass('is-open');
   });
+
+  
+  const p4en_form_tag_cloud = document.querySelector('.section-choose-topics #p4en_form');
+  // general, for all donation we check all checkbox... yes sir
+  if (p4en_form_tag_cloud && ( 'ko-KR' != document.documentElement.lang ) ) {
+    let privacyOptions = document.querySelectorAll('#p4en_form [type=checkbox]');
+    for (var i = 0, elementOption; (elementOption = privacyOptions[i++]); ) {
+      elementOption.checked = true;
+    }
+  }  
+
 };
 
 export default tagCloud;
