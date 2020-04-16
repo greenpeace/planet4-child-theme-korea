@@ -6,7 +6,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap&subset=chinese-traditional");
 
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+=======
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap");
+>>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
+=======
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+>>>>>>> 0c74d87... import Noto Sans TC:300;400 & Montserrat 300;500
+>>>>>>> a983360... import Noto Sans TC:300;400 & Montserrat 300;500
 
 /*
  * NOTE: Make sure 'Montserrat' and 'icomoon' are declared the same way
