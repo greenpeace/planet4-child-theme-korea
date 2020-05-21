@@ -1,17 +1,18 @@
 .section-post-donation-launcher {
   min-height: 300px !important;
   margin-top: 20px;
-  padding: 40px 0 20px !important;
-  background: $color-lightgrey !important;
-  //box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+  padding: 60px 0 20px !important;
+  background: $color-lightblue !important;
+  border-top: 1px solid $color-border;
+  border-bottom: 1px solid $color-border;
 
   @include lessThan('sm') {
     padding: 40px 0 30px !important;
   }
 
   h2 {
-    color: $color-green;
-    font-size: 26px;
+    color: #000;
+    font-size: 28px;
 
     @include lessThan('sm') {
       text-align: center;
@@ -22,7 +23,6 @@
 
   @include lessThan('sm') {
     .post-donation-launcher__image {
-      //display: none;
       padding-bottom: 10px;
       text-align: center;
     }
