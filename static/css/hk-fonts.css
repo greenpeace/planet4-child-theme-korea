@@ -68,3 +68,19 @@ html:lang(zh-TW)
   a.tip-share-whatsapp {
   display: none;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+@media only screen and (max-width: 1023px) {
+  header .content .right-box .button {
+    margin-left: -7px;
+<<<<<<< HEAD
+  } 
+=======
+  }
+>>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
+}
+=======
+>>>>>>> 1d6c0c7... Fix the broken header layout.
+>>>>>>> 0a05ac3... Fix the broken header layout.
