@@ -57,6 +57,6 @@ function my_img_caption_shortcode( $empty, $attr, $content ){
 // custom RSS feed for ASIA
 remove_action( 'do_feed_rss2', 'do_feed_rss2', 10 );
 function asia_do_feed_rss2() {
-	load_template( __DIR__ . '/rss.php' ); 
+	load_template( __DIR__ . '/rss.php' );
 }
 add_action( 'do_feed_rss2', 'asia_do_feed_rss2' );
