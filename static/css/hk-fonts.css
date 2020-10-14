@@ -1,61 +1,23 @@
-<<<<<<< HEAD
-@font-face {
-  font-family: 'Noto Sans TC';
-  font-display: swap;
-  font-weight: normal;
-  src: url('../fonts/Noto_Sans_TC/NotoSansTC-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Noto Sans TC';
-  font-display: swap;
-  font-weight: bold;
-  src: url('../fonts/Noto_Sans_TC/NotoSansTC-Medium.otf') format('opentype');
-}
-=======
 /*
 *
 * Embed Noto Sans TC from Google Fonts CDN
 *
 */
 
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:wght@200;400&display=swap&subset=chinese-traditional");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap&subset=chinese-traditional");
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500&display=swap");
->>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
 /*
  * NOTE: Make sure 'Montserrat' and 'icomoon' are declared the same way
  *      in kr-fonts.css as well!!
  */
-<<<<<<< HEAD
-@font-face {
-  font-family: 'Montserrat';
-  font-display: swap;
-  src: url('../fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  font-display: swap;
-  src: url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'icomoon';
-  src: url('../fonts/icomoon.ttf?3qsu9h') format('truetype'),
-    url('../fonts/icomoon.woff?3qsu9h') format('woff'),
-    url('../fonts/icomoon.svg?3qsu9h#icomoon') format('svg');
-=======
 
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.ttf?3qsu9h") format("truetype"),
     url("../fonts/icomoon.woff?3qsu9h") format("woff"),
     url("../fonts/icomoon.svg?3qsu9h#icomoon") format("svg");
->>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
   font-weight: normal;
   font-style: normal;
 }
@@ -65,65 +27,35 @@ button,
 .form-caption h1,
 .form-caption p,
 .enform {
-<<<<<<< HEAD
-  font-family: 'Noto Sans TC', sans-serif;
-}
-
-.logo-greenpeace {
-  background-image: url('../images/logo_zh.png');
-=======
   font-family: "Noto Sans TC", sans-serif;
 }
 
 .logo-greenpeace {
   background-image: url("../images/logo_zh.png");
->>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
 }
 
-@media (max-width: 359px) {
+@media (max-width: 420px) {
   .logo-greenpeace {
-<<<<<<< HEAD
-    background-image: url('../images/logo_ko.svg');
-=======
     background-image: url("../images/logo_ko.svg");
->>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
-    width: 100px !important;
+    width: 80px !important;
   }
 }
 
 .page-template-petition .logo-greenpeace,
 .page-template-donation .logo-greenpeace,
 .page-template-petition-thankyou .logo-greenpeace {
-<<<<<<< HEAD
-  background-image: url('../images/logo_zh_green.svg');
-=======
   background-image: url("../images/logo_zh_green.svg");
->>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
 }
 
 .tip .tip-actions .tip-action-buttons .social-box a.tip-share-twitter {
   display: none;
 }
 
-<<<<<<< HEAD
-html:lang(zh-TW) .tip .tip-actions .tip-action-buttons .social-box a.tip-share-whatsapp {
-=======
 html:lang(zh-TW)
   .tip
   .tip-actions
   .tip-action-buttons
   .social-box
   a.tip-share-whatsapp {
->>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
   display: none;
-}
-
-@media only screen and (max-width: 1023px) {
-  header .content .right-box .button {
-    margin-left: -7px;
-<<<<<<< HEAD
-  } 
-=======
-  }
->>>>>>> 397967554b49c1ae14d30d13ebfb17a95fac279e
 }
