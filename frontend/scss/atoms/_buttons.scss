@@ -57,6 +57,10 @@
     color: white;
     box-shadow: none !important;
 
+    &.medium{
+      padding: 0 60px;
+    }
+    
     &.wider {
       @include greaterThan('sm') {
         padding: 0 100px;
