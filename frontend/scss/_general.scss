@@ -151,7 +151,7 @@ hr {
 }
 
 img.lazy {
-  opacity: 0;
+  // opacity: 0;
   transition: opacity 140ms linear;
 
   &.error,
@@ -217,7 +217,7 @@ body.is-loading .body-spinner {
 
 /* remove stuff from mater */
 svg.external-link,
-svg.external-icon, 
+svg.external-icon,
 svg.external_link {
   display: none;
 }
