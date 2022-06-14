@@ -1209,7 +1209,7 @@ body.old-version-homepage {
     display: none;
   }
 
-  @include greaterThan('lg') {
+  @include greaterThan('sm') {
     .outer_block_container {
       padding-top: 50px;
     }
