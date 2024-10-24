@@ -38,7 +38,6 @@ export default function () {
         let html_data = response.html_data,
           posts_found = parseInt(response.posts_found),
           has_more_posts = response.has_more_posts;
-
         messages.html("");
         if (reset_container) {
           container.html("");

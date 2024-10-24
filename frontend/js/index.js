@@ -134,7 +134,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   /* Page specific functionality */
   petitionThankyou(Scroll);
 
-
   /* GPEA extended functions */
   animatecounters();
   notificationList();

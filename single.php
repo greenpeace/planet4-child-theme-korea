@@ -41,7 +41,7 @@ $context['og_title']            = $post->get_og_title();
 $context['og_description']      = strip_tags( $post->get_og_description() );
 $context['og_image_data']       = $post->get_og_image();
 $context['custom_body_classes'] = 'white-bg';
-$context['show_article_donation_launcher']    = $page_meta_data['p4-gpea_show_article_donation_launcher'][0] ?? '';
+$context['show_article_donation_launcher'] = $page_meta_data['p4-gpea_show_article_donation_launcher'][0] ?? '';
 
 // reading time, subtitle and categories info!
 $gpea_extra = new \P4CT_Site();
