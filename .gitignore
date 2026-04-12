@@ -7,3 +7,5 @@
 .ac-php-conf.json
 yarn.lock
 .remote-sync.json
+.DS_Store
+npm-debug.log
