@@ -19,7 +19,7 @@
 
 use Timber\Timber;
 
-$context        = Timber::get_context();
+$context        = Timber::context();
 $post           = new P4_Post();
 $gpea_extra     = new P4CT_Site();
 $page_meta_data = get_post_meta( $post->ID );

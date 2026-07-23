@@ -738,7 +738,7 @@ class P4CT_Site {
 			$templates          = [ 'tease-related-post.twig' ];
 		}
 
-		$pagetype_posts     = new \Timber\PostQuery( $post_args, 'P4_Post' );
+		$pagetype_posts     = \Timber\Timber::get_posts( $post_args );
 
 		return $pagetype_posts;
 
