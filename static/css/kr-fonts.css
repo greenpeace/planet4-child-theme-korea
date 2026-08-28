@@ -178,3 +178,35 @@ button,
 a.header__link {
   font-weight: 500;
 }
+
+/* Sep 1, 2026: 15th anniversary logo for header */
+.b-version-homepage .header__column--logo img {
+  margin-top: 22px;
+  height: 35px;
+}
+@media only screen and (min-width: 1280px) {
+  .b-version-homepage .header__column--logo img {
+    height: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .b-version-homepage .header__column--logo img {
+    height: 50px;
+  }
+}
+
+/* Sep 1, 2026: 15th anniversary logo for mobile main menu */
+.b-version-homepage .header .menu--logo img {
+  height: 35px;
+}
+@media only screen and (min-width: 1024px) {
+  .b-version-homepage .header .menu--logo img {
+    height: 40px;
+  }
+}
+
+/* Sep 1, 2026: 15th anniversary logo for footer */
+.footer--new .footer-greenpeace__logo {
+  max-width: 240px;
+  max-height: 50px;
+}
