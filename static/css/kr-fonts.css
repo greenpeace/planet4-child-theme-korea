@@ -181,32 +181,32 @@ a.header__link {
 
 /* Sep 1, 2026: 15th anniversary logo for header */
 .b-version-homepage .header__column--logo img {
-  margin-top: 22px;
-  height: 35px;
+  margin-top: 22px !important;
+  height: 35px !important;
 }
 @media only screen and (min-width: 1280px) {
   .b-version-homepage .header__column--logo img {
-    height: 40px;
+    height: 40px !important;
   }
 }
 @media only screen and (min-width: 1024px) {
   .b-version-homepage .header__column--logo img {
-    height: 50px;
+    height: 50px !important;
   }
 }
 
 /* Sep 1, 2026: 15th anniversary logo for mobile main menu */
 .b-version-homepage .header .menu--logo img {
-  height: 35px;
+  height: 35px !important;
 }
 @media only screen and (min-width: 1024px) {
   .b-version-homepage .header .menu--logo img {
-    height: 40px;
+    height: 40px !important;
   }
 }
 
 /* Sep 1, 2026: 15th anniversary logo for footer */
 .footer--new .footer-greenpeace__logo {
-  max-width: 240px;
-  max-height: 50px;
+  max-width: 240px !important;
+  max-height: 50px !important;
 }
