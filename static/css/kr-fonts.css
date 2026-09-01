@@ -210,3 +210,13 @@ a.header__link {
   max-width: 240px !important;
   max-height: 50px !important;
 }
+
+/* Sep 1, 2026: Reduce donation button font size for 15th anniversary logo */
+.b-version-homepage .header__column--tools .button {
+  font-size: 16px !important;
+}
+@media only screen and (min-width: 1024px) {
+  .b-version-homepage .header__column--tools .button {
+    font-size: 20px !important;
+  }
+}
