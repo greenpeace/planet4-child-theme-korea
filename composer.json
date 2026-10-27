@@ -1,14 +1,8 @@
 {
-	"name": "greenpeace/gpea-planet8-child-theme",
-	"description": "Child theme for the GPEA P8 website of the Planet 4 Wordpress project",
+	"name": "greenpeace/planet4-child-theme-korea",
+	"description": "Child theme for the GP Korea website",
 	"type":"wordpress-theme",
 	"minimum-stability" : "stable",
-	"authors": [
-		{
-			"name": "Konstantinos Kokkorogiannis",
-			"email": "kkokkoro@greenpeace.org"
-		}
-	],
 	"license": "GPL-3.0+",
 	"repositories": [
 		{
@@ -17,9 +11,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/greenpeace/gpea-planet8-child-theme/issues",
-		"wiki": "https://github.com/greenpeace/gpea-planet8-child-theme/wiki",
-		"source": "https://github.com/greenpeace/gpea-planet8-child-theme"
+		"source": "https://github.com/greenpeace/planet4-child-theme-korea"
 	},
 	"extra": {
 		"installer-paths": {
@@ -30,10 +22,5 @@
 		}
 	},
 	"require": {
-	},
-	"require-dev": {
-		"squizlabs/php_codesniffer": "2.9.*",
-		"wp-coding-standards/wpcs": "0.13.*",
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.0"
 	}
 }
